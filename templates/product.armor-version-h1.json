@@ -1,0 +1,817 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "armor_version_h1_product_fQ33Qa": {
+      "type": "armor-version-h1-animate",
+      "blocks": {
+        "variant_picker_FLXJmQ": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_aUV3tF": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "benefit_P7NU3Q": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/icons8-sound-surround_1.svg",
+            "content": "<p>7.1 surround sound</p>"
+          }
+        },
+        "benefit_rBmXhp": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/icons8-microphone_1.svg",
+            "content": "<p>Noise cancelling microphone</p>"
+          }
+        },
+        "benefit_YHPfRn": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/icons8-remote-control_1.svg",
+            "content": "<p>In-line audio controller</p>"
+          }
+        },
+        "benefit_QhgiYi": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/icons8-headphones_1.svg",
+            "content": "<p>Premium faux leather ear cups</p>"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker_FLXJmQ",
+        "buy_buttons_aUV3tF",
+        "benefit_P7NU3Q",
+        "benefit_rBmXhp",
+        "benefit_YHPfRn",
+        "benefit_QhgiYi"
+      ],
+      "custom_css": [
+        "#hero-animation-mobile {width: 50%;}",
+        "#hero-animation-desktop {display: none;}",
+        "@media screen and (min-width: 1070px) {#hero-animation-mobile {display: none; } #hero-animation-desktop {display: block; position: absolute; top: 0; left: 100%; width: 170px; }}",
+        "@media screen and (max-width: 1069px) {.h2 {font-size: 3.125rem; display: flex; flex-direction: column; }}"
+      ],
+      "settings": {
+        "model": "https://cdn.shopify.com/3d/models/3f50fe1533572541/LowerScaleLowQuality.glb",
+        "color_scheme": "",
+        "product": "armor-version-h1",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 30,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 0,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "<span style=\"font-weight:700;display:inline;position:relative;\">armor <span id=\"hero-animation-mobile\" class=\"animation-element\" data-animation-path=\"https://cdn.shopify.com/s/files/1/0656/5711/0621/files/squiggle.json?v=1734993263\"></span></span><span style=\"display:inline;\">version.H1<span id=\"hero-animation-desktop\" class=\"animation-element\" data-animation-path=\"https://cdn.shopify.com/s/files/1/0656/5711/0621/files/squiggle.json?v=1734993263\"></span></span>",
+        "content": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "complementary_products"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "container_size": "lg",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "multi_column_yjqFxw": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_KNNNkU": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/icons8-sound-surround_1.svg",
+            "title": "7.1 surround sound",
+            "heading_tag": "h3",
+            "content": "<p>Experience rich, immersive audio that’s perfect for gaming, movies, and music</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_gr7KtU": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/icons8-microphone_1.svg",
+            "title": "noise cancelling microphone",
+            "heading_tag": "h3",
+            "content": "<p>Crystal clear conversations without the hassle of background noise</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_QnPFp6": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/icons8-remote-control_1.svg",
+            "title": "in-line audio controller",
+            "heading_tag": "h3",
+            "content": "<p>Easily adjust your sound with a simple click, anytime</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_FtATGg": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/icons8-headphones_1.svg",
+            "title": "premium faux leather ear cups",
+            "heading_tag": "h3",
+            "content": "<p>Enjoy long gaming sessions in comfort with soft, durable ear cups</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_GpzJe4": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/icons8-multiple-devices_1.svg",
+            "title": "cross device compatibility",
+            "heading_tag": "h3",
+            "content": "<p>Seamlessly switch between gaming on your PC, console, or mobile</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_Qx89CL": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/icons8-rgb_1.svg",
+            "title": "RGB lights",
+            "heading_tag": "h3",
+            "content": "<p>Light up your gaming setup with vibrant RGB lighting</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_KNNNkU",
+        "image_with_text_gr7KtU",
+        "image_with_text_QnPFp6",
+        "image_with_text_FtATGg",
+        "image_with_text_GpzJe4",
+        "image_with_text_Qx89CL"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "ready to disrupt\n<span>the silence?</span>",
+        "content": "",
+        "padding-block-start": 60,
+        "padding-block-end": 60,
+        "padding-block-start-m": 30,
+        "padding-block-end-m": 40
+      }
+    },
+    "video_slideshow_8pETbA": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_rekNje": {
+          "type": "image",
+          "settings": {
+            "bordered": "workout boost",
+            "subheading": "Stay motivated during your workouts with Bravic Earbuds. Enjoy your favorite high-energy playlists while the secure fit keeps them in place, even during intense exercise. The sweat-proof design ensures durability and comfort throughout your fitness routine.",
+            "title": "your daily \n<span style=\"position:relative;\"><span id=\"companion-animation\" class=\"animation-element\" data-animation-path=\"https://cdn.shopify.com/s/files/1/0656/5711/0621/files/companion-circle.json?v=1734983279\"></span>companion</span>",
+            "title_font_size": 65,
+            "title_font_size_mobile": 30,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 600,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "rgba(0,0,0,0)",
+            "background_opacity": 50,
+            "text_color": "#000000",
+            "border_color": "",
+            "gradient_overlay": "radial-gradient(rgba(221, 234, 239, 1), rgba(221, 234, 239, 1) 100%)"
+          }
+        },
+        "image_HnRYPJ": {
+          "type": "image",
+          "settings": {
+            "bordered": "workout boost",
+            "subheading": "Stay motivated during your workouts with Bravic Earbuds. Enjoy your favorite high-energy playlists while the secure fit keeps them in place, even during intense exercise. The sweat-proof design ensures durability and comfort throughout your fitness routine.",
+            "title": "your daily \n<span>companion</span>",
+            "title_font_size": 65,
+            "title_font_size_mobile": 25,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 600,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "rgba(0,0,0,0)",
+            "background_opacity": 50,
+            "text_color": "#000000",
+            "border_color": "",
+            "gradient_overlay": "radial-gradient(rgba(221, 234, 239, 1), rgba(221, 234, 239, 1) 100%)"
+          }
+        },
+        "play_TbBXxU": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ed8a00"
+          }
+        }
+      },
+      "block_order": [
+        "image_rekNje",
+        "image_HnRYPJ",
+        "play_TbBXxU"
+      ],
+      "custom_css": [
+        "#companion-animation {top: 0; left: 6%; width: 100%; transform: scale(1.3);}"
+      ],
+      "settings": {
+        "autoplay_video": false,
+        "show_controls": false,
+        "video_size": "md",
+        "video": "shopify://files/videos/-5e85-489b-8fcc-27036f04c618 (1).mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff",
+        "padding-block-start": 40,
+        "padding-block-end": 40,
+        "padding-block-start-m": 30,
+        "padding-block-end-m": 30
+      }
+    },
+    "slideshow_custom_gP8EUR": {
+      "type": "slideshow-custom",
+      "blocks": {
+        "image_Jx77it": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/des_con_1.png",
+            "mobile_image": "shopify://shop_images/mobile_con_1.png",
+            "bordered": "1. drivers",
+            "subheading": "Enjoy seamless Bluetooth connectivity for unrestricted movement. Enjoy seamless Bluetooth connectivity for unrestricted movement.",
+            "title": "craftsmanship and \n<span>quality materials</span>",
+            "title_font_size": 65,
+            "title_font_size_mobile": 30,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "rgba(0,0,0,0)",
+            "background_opacity": 0,
+            "text_color": "#000000",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_PrkC8L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/des_con_2.png",
+            "mobile_image": "shopify://shop_images/mobile_con_2.png",
+            "bordered": "1. drivers",
+            "subheading": "Enjoy seamless Bluetooth connectivity for unrestricted movement. Enjoy seamless Bluetooth connectivity for unrestricted movement.",
+            "title": "craftsmanship and \n<span>quality materials</span>",
+            "title_font_size": 65,
+            "title_font_size_mobile": 30,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "rgba(0,0,0,0)",
+            "background_opacity": 0,
+            "text_color": "#000000",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_XLzMRX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/des_con_3.png",
+            "mobile_image": "shopify://shop_images/mobile_con_3.png",
+            "bordered": "1. drivers",
+            "subheading": "Enjoy seamless Bluetooth connectivity for unrestricted movement. Enjoy seamless Bluetooth connectivity for unrestricted movement.",
+            "title": "craftsmanship and \n<span>quality materials</span>",
+            "title_font_size": 65,
+            "title_font_size_mobile": 30,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "rgba(0,0,0,0)",
+            "background_opacity": 0,
+            "text_color": "#000000",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Jx77it",
+        "image_PrkC8L",
+        "image_XLzMRX"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#ddeaef",
+        "controls_color": "#ffffff",
+        "padding-block-start": 40,
+        "padding-block-end": 40,
+        "padding-block-start-m": 30,
+        "padding-block-end-m": 40
+      }
+    },
+    "rich_text_QmPBb4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TiW9yJ": {
+          "type": "heading",
+          "settings": {
+            "text": "specifications",
+            "heading_tag": "h3"
+          }
+        },
+        "specifications_CjBTC6": {
+          "type": "specifications",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_TiW9yJ",
+        "specifications_CjBTC6"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false,
+        "padding-block-start": 60,
+        "padding-block-end": 60,
+        "padding-block-start-m": 30,
+        "padding-block-end-m": 30
+      }
+    },
+    "reviews_wzPAPi": {
+      "type": "reviews",
+      "blocks": {
+        "image_with_text_EnHJ9T": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Stars.svg",
+            "title": "Absolutely Stunning!",
+            "heading_tag": "h3",
+            "content": "<p>Bravic products have transformed my gaming setup. The design and performance are unparalleled.</p><p><strong>Alex M</strong></p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_yyc6Cw": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Stars.svg",
+            "title": "Absolutely Stunning!",
+            "heading_tag": "h3",
+            "content": "<p>Bravic products have transformed my gaming setup. The design and performance are unparalleled.</p><p><strong>Alex M</strong></p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_qRi7JR": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Stars.svg",
+            "title": "Great Balance of Comfort and Style",
+            "heading_tag": "h3",
+            "content": "<p>Bravic products have transformed my gaming setup. The design and performance are unparalleled. I love how the headphones provide immersive sound without compromising on comfort.</p><p><strong>John w</strong></p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_GkEF9h": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Stars.svg",
+            "title": "Almost Perfect",
+            "heading_tag": "h3",
+            "content": "<p>Bravic products have transformed my gaming setup. The design and performance are unparalleled. I love how the headphones provide immersive sound without compromising on comfort.</p><p><strong>Sam L</strong></p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_DKkm34": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Stars.svg",
+            "title": "Cool",
+            "heading_tag": "h3",
+            "content": "<p>I love how versatile and stylish Bravic products are. They fit perfectly into my daily life, whether I’m working or gaming. The quality is exceptional, and the customer support is always there when I need it</p><p><strong>Sam L</strong></p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_EnHJ9T",
+        "image_with_text_yyc6Cw",
+        "image_with_text_qRi7JR",
+        "image_with_text_GkEF9h",
+        "image_with_text_DKkm34"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 4,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "what say <span>our customers</span>",
+        "content": "",
+        "padding-block-start": 80,
+        "padding-block-end": 80,
+        "padding-block-start-m": 30,
+        "padding-block-end-m": 40
+      }
+    },
+    "join_us_3WcEwE": {
+      "type": "join-us",
+      "blocks": {
+        "image_with_text_W4L9d4": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/1_070f5530-9b42-4448-a1fb-b7bddc3fa60c.png",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_GKLqXL": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/2_87388efc-6240-4460-9b72-c07bf177e342.png",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_TJjfBj": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/3_7d60dd87-555f-4f75-a2d3-a74532b3540b.png",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_W4L9d4",
+        "image_with_text_GKLqXL",
+        "image_with_text_TJjfBj"
+      ],
+      "custom_css": [
+        "#fans-animation {left: 0; top: 0; width: 100%; height: 100%; transform: scale(1.4);}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d6374032-4597-4d4a-b6b2-ef7a2f6b0e47",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "join over <span style=\"position:relative;\"><span id=\"fans-animation\" class=\"animation-element\" data-animation-path=\"https://cdn.shopify.com/s/files/1/0656/5711/0621/files/circle-2.json?v=1734978616\"></span>270K</span> <span>fans</span>",
+        "content": "",
+        "padding-block-start": 80,
+        "padding-block-end": 80,
+        "padding-block-start-m": 30,
+        "padding-block-end-m": 40
+      }
+    },
+    "rich_text_parallax_mYgCbL": {
+      "type": "rich-text-parallax",
+      "blocks": {
+        "heading_Rqxpij": {
+          "type": "heading",
+          "settings": {
+            "text": "elevate your listening \n<span style=\"position:relative;\"><span id=\"experience-animation\" class=\"animation-element\" data-animation-path=\"https://cdn.shopify.com/s/files/1/0656/5711/0621/files/square-2.json?v=1734979979\"></span>experience</span>",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_BJgcem": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Don't settle for ordinary. Upgrade to Bravic Earbuds and experience wireless freedom without compromising on sound quality or comfort.</p>"
+          }
+        },
+        "button_rfJCgz": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "order now — 150$",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rqxpij",
+        "richtext_BJgcem",
+        "button_rfJCgz"
+      ],
+      "custom_css": [
+        "#experience-animation {top: 0; left: -0.195em; width: 100%; transform: scale(1.18);}",
+        ".content {margin-top: 1.5rem !important;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "image_1": "shopify://shop_images/1_315b2d27-3e83-4d9f-bbcb-43a3677210c2.png",
+        "image_2": "shopify://shop_images/2_81af690a-a69c-4cc8-9613-f5d38fef1af1.png",
+        "remove_vertical_spacing": false,
+        "padding-block-start": 60,
+        "padding-block-end": 60,
+        "padding-block-start-m": 30,
+        "padding-block-end-m": 30
+      }
+    },
+    "faq_jpfWRe": {
+      "type": "faq",
+      "blocks": {
+        "question_zaTJMA": {
+          "type": "question",
+          "settings": {
+            "question": "How do I charge Bravic Earbuds?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "question_Pw967E": {
+          "type": "question",
+          "settings": {
+            "question": "Are Bravic Earbuds compatible with my smartphone?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "question_mRpUDj": {
+          "type": "question",
+          "settings": {
+            "question": "What is the return policy?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        },
+        "question_Y4Jcdr": {
+          "type": "question",
+          "settings": {
+            "question": "Are Bravic Earbuds compatible with my smartphone?",
+            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+          }
+        },
+        "question_Qq3dkU": {
+          "type": "question",
+          "settings": {
+            "question": "How do I charge Bravic Earbuds?",
+            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+          }
+        },
+        "question_83CKNw": {
+          "type": "question",
+          "settings": {
+            "question": "What is the return policy?",
+            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_zaTJMA",
+        "question_Pw967E",
+        "question_mRpUDj",
+        "question_Y4Jcdr",
+        "question_Qq3dkU",
+        "question_83CKNw"
+      ],
+      "custom_css": [
+        "#faq-animation {width: 100%; height: 100%; left: 0; top: -0.3em; bottom: 0; transform: scale(1.4);}",
+        "@media screen and (max-width: 759px) {#faq-animation {top: -40%; transform: scale(1) scaleY(0.75); }}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "have <span>questions?</span><span id=\"faq-animation\" class=\"animation-element\" data-animation-path=\"https://cdn.shopify.com/s/files/1/0656/5711/0621/files/faq-circle.json?v=1734979784\"></span>",
+        "content": "<p>Need help? Contact our customer support team at support@bravic.com or call us at</p><p>1-800-XXX-XXXX.</p>",
+        "padding-block-start": 40,
+        "padding-block-end": 40,
+        "padding-block-start-m": 40,
+        "padding-block-end-m": 40
+      }
+    }
+  },
+  "order": [
+    "armor_version_h1_product_fQ33Qa",
+    "main",
+    "multi_column_yjqFxw",
+    "video_slideshow_8pETbA",
+    "slideshow_custom_gP8EUR",
+    "rich_text_QmPBb4",
+    "reviews_wzPAPi",
+    "join_us_3WcEwE",
+    "rich_text_parallax_mYgCbL",
+    "faq_jpfWRe"
+  ]
+}

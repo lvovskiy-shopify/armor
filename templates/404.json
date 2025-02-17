@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-not-found",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "link": ""
+      }
+    },
+    "rich_text_Fwzkir": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_afNqb8": {
+          "type": "heading",
+          "settings": {
+            "text": "<span>oops! </span>\npage not found",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_YgWciN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>But don’t worry, we’ve got your back! The page you’re looking for might have taken a wrong turn, but you’re still in the right place.</p>"
+          }
+        },
+        "button_gEH6Lg": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "return to homepage",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_afNqb8",
+        "richtext_YgWciN",
+        "button_gEH6Lg"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Fwzkir"
+  ]
+}

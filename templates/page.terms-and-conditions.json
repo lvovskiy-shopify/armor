@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_TcwyQd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9CXbde": {
+          "type": "heading",
+          "settings": {
+            "text": "Terms and Conditions",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9CXbde"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 65px; font-weight: 500;}",
+        "@media (max-width: 768px) {.h1 {font-size: 37px; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-f409d237-1ddd-44d8-8beb-b1e01fcf11e9",
+        "separate_section_with_border": true,
+        "content_width": "xs",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_phE6JT": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_4GQNHf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Effective Date: 13.08.2024</p><p>Welcome to Bravic! By accessing or using our website, products, and services, you agree to comply with and be bound by the following Terms and Conditions. Please read them carefully before using our site or making a purchase. If you do not agree with these terms, please do not use our services.</p>"
+          }
+        },
+        "heading_TLL6RJ": {
+          "type": "heading",
+          "settings": {
+            "text": "1. Acceptance of Terms",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_UR8PEK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>By using our website or purchasing our products, you acknowledge that you have read, understood, and agree to these Terms and Conditions. These terms apply to all users of the site, including but not limited to visitors, customers, and content contributors.</p>"
+          }
+        },
+        "heading_kDz88a": {
+          "type": "heading",
+          "settings": {
+            "text": "2. Use of the Website",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_bpewWV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>a. Eligibility:</strong></p><p>You must be at least 18 years old or have the consent of a legal guardian to use our website and services. By using our site, you represent and warrant that you meet this eligibility requirement.</p><p><strong>b. Account Registration:</strong></p><p>To access certain features of our website, you may be required to create an account. You agree to provide accurate, current, and complete information during the registration process and to update this information as needed. You are responsible for maintaining the confidentiality of your account and password, and you agree to accept responsibility for all activities that occur under your account.</p><p><strong>c. Prohibited Activities:</strong></p><p>You agree not to engage in any activity that could harm Bravic or other users, including but not limited to:</p><ul><li>Using our website for unlawful purposes or in violation of any applicable laws.</li><li>Interfering with or disrupting the operation of our website or servers.Uploading or transmitting viruses, malware, or any other harmful code.</li><li>Attempting to gain unauthorized access to our systems or user accounts.</li><li>Engaging in fraudulent activities, such as using stolen payment information.</li></ul>"
+          }
+        },
+        "heading_UYyfKb": {
+          "type": "heading",
+          "settings": {
+            "text": "3. Products and Services",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_KCqwTX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>a. Product Information:</strong></p><p>We strive to provide accurate information about our products and services. However, we do not warrant that product descriptions, pricing, or other content on our website are error-free, complete, or current. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update information at any time without prior notice.</p><p><strong>b. Pricing and Payments:</strong></p><p>All prices are listed in [Insert Currency] and are subject to change without notice. We accept various payment methods as indicated on our website. By placing an order, you agree to pay the full amount due, including any applicable taxes and shipping fees. We reserve the right to cancel or refuse any order for any reason, including but not limited to product availability, errors in pricing, or suspicion of fraud.</p><p><strong>c. Shipping and Delivery:</strong></p><p>We aim to process and ship orders promptly. Delivery times may vary based on your location and shipping method chosen. Bravic is not responsible for delays or losses caused by third-party carriers. You will receive tracking information once your order has shipped.</p><p><strong>d. Returns and Refunds:</strong></p><p>We want you to be satisfied with your purchase. If you are not, you may return the product within [Insert Number of Days] days of receipt, provided it is in its original condition and packaging. Please review our [Return Policy] for detailed instructions on how to initiate a return. Refunds will be processed to the original payment method within a reasonable timeframe.</p>"
+          }
+        },
+        "heading_VrhVtB": {
+          "type": "heading",
+          "settings": {
+            "text": "4. Intellectual Property",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_yakCa4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>a. Ownership:</strong></p><p>All content on our website, including but not limited to text, graphics, logos, images, and software, is the property of Bravic or its content suppliers and is protected by copyright, trademark, and other intellectual property laws.</p><p><strong>b. License:</strong></p><p>Bravic grants you a limited, non-exclusive, non-transferable, and revocable license to access and use our website for personal, non-commercial purposes. This license does not include any rights to modify, distribute, reproduce, or create derivative works from our content without our express written permission.</p><p><strong>c. Trademarks:</strong></p><p>The Bravic name, logo, and all related names, logos, product and service names, designs, and slogans are trademarks of Bravic or its affiliates. You may not use such marks without prior written permission from Bravic.</p>"
+          }
+        },
+        "heading_6p3d9g": {
+          "type": "heading",
+          "settings": {
+            "text": "5. Limitation of Liability",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_d9DgYM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>a. Disclaimer of Warranties:</strong></p><p>Our website, products, and services are provided on an \"as-is\" and \"as-available\" basis, without any warranties of any kind, either express or implied. Bravic disclaims all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p><p><strong>b. Limitation of Liability:</strong></p><p>To the fullest extent permitted by law, Bravic shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of our website, products, or services, even if we have been advised of the possibility of such damages. Our total liability to you for any claims arising from your use of our website or products shall not exceed the amount you paid to Bravic for the product or service in question.</p>"
+          }
+        },
+        "heading_6hPXRd": {
+          "type": "heading",
+          "settings": {
+            "text": "6. Indemnification",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_PtcHWU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>You agree to indemnify, defend, and hold harmless Bravic and its affiliates, officers, directors, employees, and agents from any claims, liabilities, damages, losses, or expenses, including reasonable attorneys' fees, arising out of or related to your use of our website, your violation of these Terms and Conditions, or your infringement of any intellectual property or other rights of any person or entity.</p>"
+          }
+        },
+        "heading_WKaLUV": {
+          "type": "heading",
+          "settings": {
+            "text": "7. Termination",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Chhphk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bravic reserves the right to terminate or suspend your account and access to our website and services, without prior notice or liability, for any reason, including but not limited to your breach of these Terms and Conditions. Upon termination, your right to use our website will immediately cease, and you must destroy any downloaded or printed materials obtained from our site.</p>"
+          }
+        },
+        "heading_CtFPfQ": {
+          "type": "heading",
+          "settings": {
+            "text": "8. Governing Law and Dispute Resolution",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_TWRVyk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>These Terms and Conditions shall be governed by and construed in accordance with the laws of [Insert Jurisdiction], without regard to its conflict of law principles. Any disputes arising from or related to these terms or your use of our website shall be resolved through binding arbitration in [Insert Location], except that you may assert claims in small claims court if your claims qualify.</p>"
+          }
+        },
+        "heading_qAnw3d": {
+          "type": "heading",
+          "settings": {
+            "text": "9. Changes to These Terms",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NTx4HG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bravic reserves the right to modify these Terms and Conditions at any time. We will notify you of any significant changes by posting the updated terms on our website and updating the effective date. Your continued use of our website and services after the changes are made constitutes your acceptance of the revised terms.</p>"
+          }
+        },
+        "heading_Ubj7pb": {
+          "type": "heading",
+          "settings": {
+            "text": "10. Contact Us",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_kibxUc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you have any questions or concerns about these Terms and Conditions, please contact us at:</p><p><strong>Bravic Customer Support</strong></p><p>Email: <a href=\"mailto:bravic@info.com\" title=\"mailto:bravic@info.com\">bravic@info.com</a> </p><p>Phone: <a href=\"tel:+837638724\" title=\"tel:+837638724\">+837638724</a></p><p>Thank you for choosing Bravic. We are committed to providing you with exceptional products and services, and we appreciate your trust in us.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_4GQNHf",
+        "heading_TLL6RJ",
+        "richtext_UR8PEK",
+        "heading_kDz88a",
+        "richtext_bpewWV",
+        "heading_UYyfKb",
+        "richtext_KCqwTX",
+        "heading_VrhVtB",
+        "richtext_yakCa4",
+        "heading_6p3d9g",
+        "richtext_d9DgYM",
+        "heading_6hPXRd",
+        "richtext_PtcHWU",
+        "heading_WKaLUV",
+        "richtext_Chhphk",
+        "heading_CtFPfQ",
+        "richtext_TWRVyk",
+        "heading_qAnw3d",
+        "richtext_NTx4HG",
+        "heading_Ubj7pb",
+        "richtext_kibxUc"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 24px; font-weight: 600;}",
+        "a {color: #8c9d13;}",
+        "@media (max-width: 768px) {.h1 {font-size: 20px; } p {font-size: 14px; }}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_TcwyQd",
+    "rich_text_phE6JT"
+  ]
+}
