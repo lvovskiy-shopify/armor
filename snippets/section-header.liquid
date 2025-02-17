@@ -1,0 +1,174 @@
+{%- if subheading != blank or heading != blank or content != blank %}
+  <div class="section-header justify-self-{{ text_alignment | default: 'center' }} text-{{ text_alignment | default: 'center' }}">
+    {%- if subheading != blank or heading != blank or content != blank -%}
+      <div class="prose">
+        {%- if subheading != blank -%}
+          <p class="h6">{{- subheading  -}}</p>
+        {%- endif -%}
+
+        {%- if heading != blank -%}
+          <h2 class="h2">
+            {{- heading | newline_to_br -}}
+            {% comment %} Use section settings to determine which animation to show {% endcomment %}
+              {% comment %} <div id="hero-animation" class="animation-element" data-animation-path="{{ 'line-8.json' | asset_url }}"></div> {% endcomment %}
+            {% comment %} {% case section.settings.title %}
+                {% when 'armor <span>version.H1</span>' %}
+                    <div id="hero-animation" class="animation-element" data-animation-path="{{ 'line-8.json' | asset_url }}"></div>
+                {% when 'have <span>questions?</span>' %}
+                    <span id="-animation" class="animation-element" data-animation-path=""></span>
+                
+                {% else %} 
+                    <!-- No animation -->
+            {% endcase %} {% endcomment %}
+
+          </h2>
+
+        {%- endif -%}
+
+        <div class="content">{{- content  -}}</div>
+      </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}
+
+<style>
+.animation-element {
+  position: absolute;
+  overflow: hidden;
+}
+
+.prose {
+  position: relative;
+}
+
+
+
+
+</style>
+
+<script>
+class LottieAnimationManager {
+    constructor() {
+        this.animations = new Map();
+        this.lastScrollY = window.scrollY;
+        this.topTriggerHeight = 100; // 100px thick top bar
+        this.bottomTriggerHeight = 100; // 100px thick bottom bar
+
+        this.handleScroll = this.handleScroll.bind(this);
+    }
+
+    init() {
+        document.addEventListener('DOMContentLoaded', () => {
+            this.initializeElements();
+            window.addEventListener('scroll', this.handleScroll);
+        });
+    }
+
+    initializeElements() {
+        document.querySelectorAll('.animation-element').forEach(el => {
+            if (!this.animations.has(el)) {
+                this.initializeAnimation(el);
+            }
+        });
+    }
+
+    initializeAnimation(container) {
+        const animationPath = container.getAttribute('data-animation-path');
+        if (!animationPath) return console.error('No animation path for', container);
+
+        const isHeroAnimation = container.id?.includes('hero-animation');
+
+        const animationState = {
+            instance: lottie.loadAnimation({
+                container,
+                renderer: 'svg',
+                loop: false,
+                autoplay: false,
+                path: animationPath
+            }),
+            isPlaying: false,
+            lastDirection: 0, // 0 = not played, 1 = played forward, -1 = played backward
+            fullyOutOfView: true, // Ensures proper reset when leaving viewport
+            container
+        };
+
+        animationState.instance.setSpeed(2);
+        this.animations.set(container, animationState);
+
+        if (isHeroAnimation) {
+            this.playAnimation(animationState, 1);
+        }
+    }
+
+    handleScroll() {
+        const scrollDirection = window.scrollY > this.lastScrollY ? "down" : "up";
+        this.lastScrollY = window.scrollY;
+
+        this.animations.forEach((animationState, container) => {
+            const rect = container.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            // Define the **top bar triggers**
+            const topBarBottomTrigger = this.topTriggerHeight;
+            const topBarTopTrigger = 0; // The very top of the viewport
+
+            // Define the **bottom bar triggers**
+            const bottomBarTopTrigger = windowHeight - this.bottomTriggerHeight;
+            const bottomBarBottomTrigger = windowHeight; // The very bottom of the viewport
+
+            // Check if element is **fully out of view** (reset state)
+            const isFullyOutOfView = rect.bottom < 0 || rect.top > windowHeight;
+            if (isFullyOutOfView) {
+                animationState.fullyOutOfView = true;
+            }
+
+            // **BOTTOM BAR TRIGGERS**
+            const entersBottomBarFromBelow = rect.bottom >= bottomBarTopTrigger && rect.top < bottomBarTopTrigger; // Triggers Draw
+            const leavesBottomBarFromAbove = rect.top >= bottomBarBottomTrigger && rect.bottom > bottomBarBottomTrigger; // Triggers Undraw
+
+            // **TOP BAR TRIGGERS**
+            const entersTopBarFromBelow = rect.top <= topBarBottomTrigger && rect.bottom > topBarBottomTrigger; // Triggers Undraw
+            const leavesTopBarFromAbove = rect.bottom <= topBarTopTrigger && rect.top < topBarTopTrigger; // Triggers Draw
+
+            //  **Trigger Draw (Only when re-entering from fully out of view)**
+            if ((entersBottomBarFromBelow || leavesTopBarFromAbove) && animationState.fullyOutOfView) {
+                console.log(` Drawing forward: ${container.id}`);
+                animationState.fullyOutOfView = false;
+                this.playAnimation(animationState, 1);
+            }
+
+            //  **Trigger Undraw**
+            if ((entersTopBarFromBelow || leavesBottomBarFromAbove) && animationState.lastDirection !== -1) {
+                console.log(` Reversing (undrawing): ${container.id}`);
+                this.playAnimation(animationState, -1);
+            }
+
+            //  **Reset lastDirection when scrolling down past the top bar**
+            if (scrollDirection === "down" && rect.top > topBarBottomTrigger && animationState.lastDirection === -1) {
+                console.log(` Resetting for redraw: ${container.id}`);
+                animationState.lastDirection = 0;
+            }
+        });
+    }
+
+    playAnimation(animationState, direction) {
+        if (animationState.isPlaying || animationState.lastDirection === direction) return;
+
+        console.log(`🔥 Triggering animation ${direction === 1 ? 'FORWARD' : 'REVERSE'} for: ${animationState.container.id}`);
+
+        animationState.isPlaying = true;
+        animationState.lastDirection = direction;
+
+        animationState.instance.setDirection(direction);
+        animationState.instance.play();
+
+        animationState.instance.addEventListener('complete', () => {
+            animationState.isPlaying = false;
+        });
+    }
+}
+
+// Initialize the improved Lottie manager
+const lottieManager = new LottieAnimationManager();
+lottieManager.init();
+</script>
