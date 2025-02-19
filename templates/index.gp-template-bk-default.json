@@ -1,0 +1,285 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_1000004190_27cd45c1-6471-49b1-8b2a-53334e34e38e.png",
+            "bordered": "",
+            "subheading": "where epic sound arm wrestles with\n killer design in a battle for your ears.",
+            "title": "we're \nchanging \nthe game",
+            "title_font_size": 110,
+            "title_font_size_mobile": 50,
+            "mobile_text_position": "place-self-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "explore products",
+            "button_1_link": "#",
+            "button_1_style": "solid",
+            "button_1_background": "#000000",
+            "button_1_text_color": "#ffffff",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#000000",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_WNJxxG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_1000004190_27cd45c1-6471-49b1-8b2a-53334e34e38e.png",
+            "bordered": "",
+            "subheading": "where epic sound arm wrestles with\n killer design in a battle for your ears.",
+            "title": "we're \nchanging \nthe game",
+            "title_font_size": 110,
+            "title_font_size_mobile": 50,
+            "mobile_text_position": "place-self-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "explore products",
+            "button_1_link": "#",
+            "button_1_style": "solid",
+            "button_1_background": "#000000",
+            "button_1_text_color": "#ffffff",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#000000",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "image_WNJxxG"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": false,
+        "media_size": "fill",
+        "show_initial_transition": false,
+        "autoplay": false,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#ffffff",
+        "controls_color": "#ffffff",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
+        "padding-block-start-m": 0,
+        "padding-block-end-m": 0
+      }
+    },
+    "collection_list_JKD4ra": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_HmRi7H": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/1.png",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "150$",
+            "title": "Headphones",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_YNmmCT": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/2.png",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "150$",
+            "title": "Wireless earbuds",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_kfjbLN": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/3.png",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "150$",
+            "title": "Keyboard & mouse",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_DU7bEN": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/4.png",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "Other products >>>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_HmRi7H",
+        "collection_YNmmCT",
+        "collection_kfjbLN",
+        "collection_DU7bEN"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": false,
+        "stack_collections": false,
+        "collections_per_row_mobile": "2",
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_AiYtpe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Mbq36U": {
+          "type": "heading",
+          "settings": {
+            "text": "technology and design \ngo hand in hand",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_jQ8Pn8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our mission is to merge high design with unparalleled performance, creating products that cater not just to gamers but to anyone who values top-tier quality and aesthetics.<\/p>"
+          }
+        },
+        "button_BVh6hf": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "about us",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mbq36U",
+        "richtext_jQ8Pn8",
+        "button_BVh6hf"
+      ],
+      "custom_css": [
+        ".content {max-width: 440px; margin-left: auto; margin-right: auto;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false,
+        "padding-block-start": 40,
+        "padding-block-end": 40,
+        "padding-block-start-m": 40,
+        "padding-block-end-m": 40
+      }
+    },
+    "video_iUrMwn": {
+      "type": "video",
+      "blocks": {
+        "play_89xLwn": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ff7327"
+          }
+        }
+      },
+      "block_order": [
+        "play_89xLwn"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": false,
+        "video_size": "lg",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "newsletter_xL3kfD": {
+      "type": "newsletter",
+      "custom_css": [
+        "input {border: 1px solid var(--Bravic-Grey, #ececec);}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "subheading": "",
+        "title": "stay connected with armor",
+        "content": "<p>Be the first to know about our latest products, exclusive offers, and exciting updates. Join our community of tech enthusiasts and never miss out on what’s new at Bravic.<\/p>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "padding-block-start": 80,
+        "padding-block-end": 80,
+        "padding-block-start-m": 30,
+        "padding-block-end-m": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "collection_list_JKD4ra",
+    "rich_text_AiYtpe",
+    "video_iUrMwn",
+    "newsletter_xL3kfD"
+  ]
+}
