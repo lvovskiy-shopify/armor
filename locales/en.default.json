@@ -8,6 +8,13 @@
  * ------------------------------------------------------------
  */
 {
+  "404": {
+    "general": {
+      "title": "404",
+      "not_found_info": "We could not find the page you were looking for. Please use the navigation or the button below to go back to our website.",
+      "continue_shopping": "Continue shopping"
+    }
+  },
   "general": {
     "page": "Page {{ page }}",
     "home": "Home",
@@ -107,7 +114,7 @@
       "view_in_space": "View in your space",
       "taxes_included": "Tax included.",
       "taxes_excluded": "Tax excluded.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated<\/a> at checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated</a> at checkout",
       "size_chart": "Size chart",
       "available_colors_count": {
         "one": "{{ count }} color available",
@@ -389,13 +396,6 @@
       "error": "One or more error occurred while retrieving shipping rates:"
     }
   },
-  "404": {
-    "general": {
-      "title": "404",
-      "not_found_info": "We could not find the page you were looking for. Please use the navigation or the button below to go back to our website.",
-      "continue_shopping": "Continue shopping"
-    }
-  },
   "search": {
     "general": {
       "title": "Search",
@@ -479,6 +479,41 @@
     "shop_the_look": {
       "view_products": "View products",
       "view_product": "View product"
+    }
+  },
+  "gempages": {
+    "Carousel": {
+      "no_slider": "No Slider"
+    },
+    "Newsletter": {
+      "err_msg_default": "Can’t send email. Please try again later.",
+      "success_msg_default": "Thanks for contacting us. We'll get back to you as soon as possible."
+    },
+    "IconListV2": {
+      "icons_not_found": "Icons not found"
+    },
+    "IconList": {
+      "icons_not_found": "Icons not found"
+    },
+    "IconListHoz": {
+      "icons_not_found": "Icons not found"
+    },
+    "Product": {
+      "product_not_found": "Product not found"
+    },
+    "ProductList": {
+      "product_not_found": "Product Not Found!",
+      "no_products_found": "No products found!",
+      "no_related_products": "No related products!"
+    },
+    "ProductTitle": {
+      "product_not_found": "Product Not Found"
+    },
+    "ProductVariants": {
+      "please_select": "Please select an option"
+    },
+    "StockCounter": {
+      "let_buy_now": "<mark>HURRY!</mark> LET BUY NOW"
     }
   }
 }
